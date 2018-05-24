@@ -1,8 +1,8 @@
 const getters = {
-    table_serchData: state => {
-        return state.table.putData
-      },
-    listDatas: state => state.table.listData,
-    
+    datase: (state) => {
+        console.log('11111111111');
+        return state.topNav.datases
+    },
   };
+  console.log('1111111111111');
   export default getters

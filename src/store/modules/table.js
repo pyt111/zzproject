@@ -1,7 +1,7 @@
 const table = {
     state: {
         putData:'',
-        listData:'',
+        listData:'111111111',
     },
     mutations: {
         SET_SERCHDATA:(state,data) => {
